@@ -1,5 +1,5 @@
 **ASP.NET Core** (
-  [nuget](https://www.nuget.org/packages/Alomso.AspNetCore.Mvc.Versioning) |
+  [nuget](https://www.nuget.org/packages/Alomso.AspNetCore.Mvc.Versioning) )
   <br>Adds service API versioning to your ASP.NET Core applications
 
 ---
