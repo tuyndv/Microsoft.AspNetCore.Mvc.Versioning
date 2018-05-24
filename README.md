@@ -54,16 +54,16 @@ namespace Microsoft.Examples.Controllers
         public string GetV11() => $"Controller = {GetType().Name}\nVersion V1.1";
 
         [HttpGet, MapToApiVersion( "1.0.1" )]
-        public string GetV12X() => $"Controller = {GetType().Name}\nVersion V1.0.1";
+        public string GetV101() => $"Controller = {GetType().Name}\nVersion V1.0.1";
 
         [HttpGet, MapToApiVersion( "1.0.2" )]
-        public string GetV12() => $"Controller = {GetType().Name}\nVersion V1.0.2";
+        public string GetV102() => $"Controller = {GetType().Name}\nVersion V1.0.2";
 
         [HttpGet, MapToApiVersion( "1.2" )]
-        public string GetV22() => $"Controller = {GetType().Name}\nVersion V1.2";
+        public string GetV12() => $"Controller = {GetType().Name}\nVersion V1.2";
 
         [HttpGet, MapToApiVersion( "1.2.2" )]
-        public string GetV222() => $"Controller = {GetType().Name}\nVersion V1.2.2";
+        public string GetV122() => $"Controller = {GetType().Name}\nVersion V1.2.2";
     }
 }
 ```
