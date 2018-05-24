@@ -36,7 +36,6 @@ Version Format                | Example                | Interpretation
 ```
 namespace Microsoft.Examples.Controllers
 {
-    using Microsoft.AspNetCore.Mvc;
     [ApiVersion( "1.0" )]
     [ApiVersion( "1.1" )]
     [ApiVersion( "1.0.1" )]
