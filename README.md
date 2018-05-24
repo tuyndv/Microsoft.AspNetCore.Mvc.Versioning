@@ -4,7 +4,7 @@
 
 ---
 
-**Api Version Support**
+**Version Support**
 
 ```
 Version Format                | Example                | Interpretation
