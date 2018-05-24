@@ -1,3 +1,28 @@
+**Api Version Support**
+
+
+Version Format                | Example                | Interpretation
+----------------------------- | ---------------------- | ------------------------------------------
+{groupVersion}                | 2013-03-21, 2012-12-01 | 3.3, 1.2
+{majorVersion}                | 3                      | 3.0
+{majorVersion}.{minorVersion} | 1.2                    | 1.2
+{majorVersion}.{minorVersion}.{buildVersion} | 1.2.2                    | 1.2.2
+
+
+
+**Startup.cs**
+```
+ services.AddApiVersioning( o =>
+            {
+                o.AssumeDefaultVersionWhenUnspecified = true;
+                o.ReportApiVersions = true;
+                o.DefaultApiVersion = new ApiVersion( 1, 2, 2 );
+                o.SupportLastVersionApi = true;
+            } );
+```
+
+
+**ValuesController.cs**
 ```
 namespace Microsoft.Examples.Controllers
 {
@@ -32,3 +57,4 @@ namespace Microsoft.Examples.Controllers
     }
 }
 ```
+
