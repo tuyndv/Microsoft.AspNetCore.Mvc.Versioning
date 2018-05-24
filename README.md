@@ -1,9 +1,8 @@
 **ASP.NET Core**
   <br>Adds service API versioning to your ASP.NET Core applications
-  <br>Support Major.Minor.Builders
+  <br>Support Major.Minor.Builders (x.x.x)
   
-  
-  <br>[![NuGet Release](https://img.shields.io/nuget/vpre/Alomso.AspNetCore.Mvc.Versioning.svg?maxAge=2592000)](https://www.nuget.org/packages/Alomso.AspNetCore.Mvc.Versioning/)
+  [![NuGet Release](https://img.shields.io/nuget/vpre/Alomso.AspNetCore.Mvc.Versioning.svg?maxAge=2592000)](https://www.nuget.org/packages/Alomso.AspNetCore.Mvc.Versioning/)
 
 ---
 
