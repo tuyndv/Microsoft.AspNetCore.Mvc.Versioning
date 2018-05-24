@@ -6,7 +6,7 @@
 
 ---
 
-**Version Format**
+**1. Version Format**
 
 ```
 Version Format                | Example                | Interpretation
@@ -18,7 +18,7 @@ Version Format                | Example                | Interpretation
 ```
 
 
-**Startup.cs**
+**2. Startup.cs**
 ```
  services.AddApiVersioning( o =>
             {
@@ -30,7 +30,7 @@ Version Format                | Example                | Interpretation
 ```
 
 
-**ValuesController.cs**
+**3. ValuesController.cs**
 ```
 namespace Microsoft.Examples.Controllers
 {
