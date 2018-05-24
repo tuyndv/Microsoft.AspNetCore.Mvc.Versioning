@@ -1,3 +1,4 @@
+```
 namespace Microsoft.Examples.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
@@ -30,3 +31,4 @@ namespace Microsoft.Examples.Controllers
         public string GetV222() => $"Controller = {GetType().Name}\nVersion V1.2.2";
     }
 }
+```
