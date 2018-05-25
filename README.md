@@ -2,6 +2,7 @@
 
   * Adds service API versioning to your ASP.NET Core applications
 * Support Major.Minor.Build Version (x.x.x)
+* Support Get LastVersionApi
 
  * [![NuGet Release](https://img.shields.io/nuget/vpre/Alomso.AspNetCore.Mvc.Versioning.svg?maxAge=2592000)](https://www.nuget.org/packages/Alomso.AspNetCore.Mvc.Versioning/)
 
@@ -26,6 +27,7 @@ Version Format                               | Example                | Interpre
                 o.AssumeDefaultVersionWhenUnspecified = true;
                 o.ReportApiVersions = true;
                 o.DefaultApiVersion = new ApiVersion( 1, 2, 2 );
+                o.SupportLastVersionApi = true;
             } );
 ```
 
